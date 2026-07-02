@@ -21,5 +21,5 @@ Repositori ini memuat kode pengolahan data dan model hasil inversi 3D untuk Tuga
 - `Grablox2_current_iter.inp` - File parameter input untuk GRABLOX2, mendefinisikan geometri model (posisi, dimensi, jumlah divisi blok 103x61x8), batas nilai densitas (1.0-3.4 g/cm3), parameter inversi (Occam density optimization), dan referensi ke file data Bouguer & gradien yang digunakan.
 - `Grablox2_current_iter.out` - File log/hasil akhir inversi, berisi ringkasan informasi model (dimensi, diskretisasi, densitas rata-rata per layer), parameter inversi yang dipakai, serta metrik akurasi (RMS error data, RMS error gradien, RMS error model) dan waktu komputasi.
 
-## Data Pembanding/Validasi
+## Data Tambahan
 - `Banda_Arc_Slab2_Merged.grd` - Grid geometri slab (kedalaman megathrust) dari model Slab2 untuk zona Busur Banda, digunakan sebagai data pembanding/validasi visual terhadap arah dan pola subsiden tektonik hasil inversi. Grid ini dioverlaykan pada peta densitas dan penampang (cross-section) untuk mengecek kesesuaian arah subsiden dengan geometri slab.
