@@ -1,6 +1,6 @@
 # TA-Inversi-Densitas-3D-VGG-BusurBanda
 Data dan hasil inversi densitas 3D dari Vertical Gravity Gradient (VGG) untuk analisis subsidensi tektonik zona konvergensi 3 lempeng di Busur Banda, Indonesia. Tugas Akhir-Departemen Teknik Geomatika ITS.
-## Data Hasil Inversi dan Hasil Bouguer dan Vertical Gravity Gradient (VGG) (GRABlox2)
+## Data Hasil Inversi, Hasil Bouguer dan Vertical Gravity Gradient (VGG) (GRABlox2)
 - `Grablox2_current_iter.blx` - File model blok 3D hasil parameterisasi awal (grid density model), berisi koordinat pusat tiap blok (x, y, z), dimensi blok, dan nilai densitas per blok sebelum/selama proses inversi. Format kolom: x, y, z-height, x-center, y-center, z-thickness, index, density.
 - `Grablox2_current_iter.dat` - Data anomali gravitasi (Bouguer) hasil GRABLOX 2.1, berisi koordinat titik amat (x, y, h) dan tiga nilai gravitasi: g comp (gravity computed/hasil forward modeling), g base (base level/regional), dan g meas (gravity measured/data observasi).
 - `Grablox2_current_iter.gat` - Data Vertical Gravity Gradient (VGG) hasil GRABLOX 2.12, berisi koordinat titik amat (x, y, h) dan nilai gzz comp (VGG hasil komputasi model) serta gzz meas (VGG hasil observasi/turunan dari data Bouguer).
