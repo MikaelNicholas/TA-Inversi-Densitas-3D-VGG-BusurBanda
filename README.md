@@ -1,7 +1,11 @@
 # TA-Inversi-Densitas-3D-VGG-BusurBanda
 Data dan hasil inversi densitas 3D dari Vertical Gravity Gradient (VGG) untuk analisis subsidensi tektonik zona konvergensi 3 lempeng di Busur Banda, Indonesia. Tugas Akhir-Departemen Teknik Geomatika ITS.
-- `Grablox2_current_iter.blx` - File model blok 3D hasil parameterisasi awal (grid density model), berisi koordinat pusat tiap blok (x, y, z), dimensi blok, dan nilai densitas per blok sebelum/selama proses inversi. Format kolom: `x, y, z-height, x-center, y-center, z-thickness, index, density`.
-- `Grablox2_current_iter.dat` - Data anomali gravitasi (Bouguer) hasil GRABLOX 2.1, berisi koordinat titik amat (x, y, h) dan tiga nilai gravitasi: `g comp` (gravity computed/hasil forward modeling), `g base` (base level/regional), dan `g meas` (gravity measured/data observasi).
-- `Grablox2_current_iter.gat` - Data Vertical Gravity Gradient (VGG) hasil GRABLOX 2.12, berisi koordinat titik amat (x, y, h) dan nilai `gzz comp` (VGG hasil komputasi model) serta `gzz meas` (VGG hasil observasi/turunan dari data Bouguer).
-- `Grablox2_current_iter.inp` - File parameter input untuk GRABLOX2, mendefinisikan geometri model (posisi, dimensi, jumlah divisi blok 103×61×8), batas nilai densitas (1.0–3.4 g/cm³), parameter inversi (Occam density optimization), dan referensi ke file data Bouguer & gradien yang digunakan.
+## Data Inversi (GRABlox2)
+- `Grablox2_current_iter.blx` - File model blok 3D hasil parameterisasi awal (grid density model), berisi koordinat pusat tiap blok (x, y, z), dimensi blok, dan nilai densitas per blok sebelum/selama proses inversi. Format kolom: x, y, z-height, x-center, y-center, z-thickness, index, density.
+- `Grablox2_current_iter.dat` - Data anomali gravitasi (Bouguer) hasil GRABLOX 2.1, berisi koordinat titik amat (x, y, h) dan tiga nilai gravitasi: g comp (gravity computed/hasil forward modeling), g base (base level/regional), dan g meas (gravity measured/data observasi).
+- `Grablox2_current_iter.gat` - Data Vertical Gravity Gradient (VGG) hasil GRABLOX 2.12, berisi koordinat titik amat (x, y, h) dan nilai gzz comp (VGG hasil komputasi model) serta gzz meas (VGG hasil observasi/turunan dari data Bouguer).
+- `Grablox2_current_iter.inp` - File parameter input untuk GRABLOX2, mendefinisikan geometri model (posisi, dimensi, jumlah divisi blok 103x61x8), batas nilai densitas (1.0-3.4 g/cm3), parameter inversi (Occam density optimization), dan referensi ke file data Bouguer & gradien yang digunakan.
 - `Grablox2_current_iter.out` - File log/hasil akhir inversi, berisi ringkasan informasi model (dimensi, diskretisasi, densitas rata-rata per layer), parameter inversi yang dipakai, serta metrik akurasi (RMS error data, RMS error gradien, RMS error model) dan waktu komputasi.
+
+## Data Tambahan
+- `Banda_Arc_Slab2_Merged.grd` - Grid geometri slab (kedalaman megathrust) dari model Slab2 untuk zona Busur Banda, digunakan sebagai data pembanding/validasi visual terhadap arah dan pola subsiden tektonik hasil inversi. Grid ini dioverlaykan pada peta densitas dan penampang (cross-section) untuk mengecek kesesuaian arah subsiden dengan geometri slab.
