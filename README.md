@@ -14,7 +14,7 @@ Repositori ini memuat kode pengolahan data dan model hasil inversi 3D untuk Tuga
 - `FFT.py` - Pipeline pengolahan Vertical Gravity Gradient (VGG) dari data anomali Bouguer menggunakan metode Fast Fourier Transform (FFT), meliputi reflect padding, mean removal, tapering, operator diferensiasi spektral dengan Gaussian damping, IFFT, cropping, konversi satuan ke Eotvos, dan clipping.
 - `Visualisasi.py` - Script visualisasi peta anomali Bouguer, peta VGG, peta densitas per layer, scatter plot perbandingan data observasi dan komputasi, serta penampang (cross-section) hasil inversi.
 
-## Data Hasil Inversi, Bouguer, Vertical Gravity Gradient (VGG) (GRABlox2)
+## Data Hasil Inversi, Bouguer, dan Vertical Gravity Gradient (VGG) (GRABlox2)
 - `Grablox2_current_iter.blx` - File model blok 3D hasil parameterisasi awal (grid density model), berisi koordinat pusat tiap blok (x, y, z), dimensi blok, dan nilai densitas per blok sebelum/selama proses inversi. Format kolom: x, y, z-height, x-center, y-center, z-thickness, index, density.
 - `Grablox2_current_iter.dat` - Data anomali gravitasi (Bouguer) hasil GRABLOX 2.1, berisi koordinat titik amat (x, y, h) dan tiga nilai gravitasi: g comp (gravity computed/hasil forward modeling), g base (base level/regional), dan g meas (gravity measured/data observasi).
 - `Grablox2_current_iter.gat` - Data Vertical Gravity Gradient (VGG) hasil GRABLOX 2.12, berisi koordinat titik amat (x, y, h) dan nilai gzz comp (VGG hasil komputasi model) serta gzz meas (VGG hasil observasi/turunan dari data Bouguer).
