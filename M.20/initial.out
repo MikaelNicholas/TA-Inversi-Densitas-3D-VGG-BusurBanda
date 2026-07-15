@@ -1,0 +1,95 @@
+ -----------------------------------------------------------
+ GRABLOX  2.1 results file:  
+ ------------------------------------------------------------
+ 
+   Date and time: 2026-07-15  19:23
+ 
+
+ File information-----------------------------------------
+ 
+   Model file (based on): C:\TA MIGUELINO\Data\Testing GRABLOX2\M.20\initial.inp
+   Data file:             C:\TA MIGUELINO\Data\Testing GRABLOX2\M.20\BandaArc_Bouguer_Fix_10Min.DAT
+   Gradient data:         C:\TA MIGUELINO\Data\Testing GRABLOX2\M.20\BandaArc_Gradient_Fix_10Min.GAT
+ 
+
+ Model information-----------------------------------------
+ 
+   X-position                4.55
+   Y-position                4.64
+   Z-position               10.00
+   X-dimension            1781.00
+   Y-dimension            1002.00
+   Z-dimension             125.00
+ 
+   division-X                  97
+   division-Y                  55
+   division-Z                   8
+ 
+ The block model consists of    42680 minor blocks 
+
+ The actual amount of computational blocks is      500
+ Discretization (xyz): ( 97 x 55 x  8)
+ Default block size:   18.4 x  18.2 x   3.5 units 
+ Block height is increasing with depth
+
+ All distances are defined in kilometers (du = km)
+ 
+
+ Computational parameters:
+
+ The background density is based on constant value
+
+   Background density (g/cm^3)    2.67000
+
+ The mean density of the whole model is     0.00000 (g/cm^3)
+
+ The mean density of each layer is (g/cm^3):
+   Layer    1 :     0.00000
+   Layer    2 :     0.00000
+   Layer    3 :     0.00000
+   Layer    4 :     0.00000
+   Layer    5 :     0.00000
+   Layer    6 :     0.00000
+   Layer    7 :     0.00000
+   Layer    8 :     0.00000
+
+ Base anomaly: A + B*x + C*y + D*x^2 + E*y^2 + F*x*y
+
+ Gravity: 
+
+   Base level A (mGal)             0.0000000
+   X gradient B (mGal/du)          0.0000000
+   X gradient C (mGal/du)          0.0000000
+   X^2 term   D (mGal/du^2)      0.00000E+00
+   Y^2 term   E (mGal/du^2)      0.00000E+00
+   X*Y term   F (mGal/du^2)      0.00000E+00
+   X0 position  (du)             0.89463E+03
+   Y0 position  (du)             0.50558E+03
+
+ Vertical gradient: 
+
+   Base level A (Eötvös)       0.0000000
+   X gradient B (Eo/du)          0.0000000
+   Y gradient C (Eo/du)          0.0000000
+   X^2 term   D (Eo/du^2)      0.00000E+00
+   Y^2 term   E (Eo/du^2)      0.00000E+00
+   X*Y term   F (Eo/du^2)      0.00000E+00
+   X0 position  (du)          0.89463E+03
+   Y0 position  (du)          0.50558E+03
+
+ Computation information-----------------------------------
+
+ Computed data is: Gravity field + vertical gradient
+ Computed gravity data includes only the anomaly 
+ The regional data consists of base anomaly and gradients 
+ 
+   Data  RMS error =               0.25405E+00
+   Vert. grad. RMS error =         0.87240E-01
+
+ Inversion information-------------------------------------
+
+ There are no inversion results to show 
+
+ Data information------------------------------------------
+
+ Measured data defined on (regular/irregular) grid 
